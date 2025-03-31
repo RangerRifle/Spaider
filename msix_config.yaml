@@ -1,0 +1,10 @@
+msix_config:
+  display_name: "Spaider"
+  publisher_display_name: "Jacob Lockner"
+  identity_name: "JacobLockner.Spaider"
+  family_name: "JacobLockner.Spaider_fkgh1jrbd97xj"
+  msix_version: "1.0.0.0"
+  publisher: "CN=F506A0C2-0722-4DB0-A0EE-7A1A59F0E46B"
+  capabilities: "internetClient"
+  windows_build_architecture: "x64"
+  custom_manifest: "windows/runner/resources/AppxManifest.xml"

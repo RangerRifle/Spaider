@@ -1,0 +1,37 @@
+name: finance_tracker
+description: "Desktop finance tracker application to analyze trends and make finance-based decisions."
+
+publish_to: 'none'
+
+platforms:
+  windows:
+  macos:
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.3
+  sqflite: ^2.0.0+4
+  intl: ^0.17.0
+  path: ^1.8.0
+  path_provider: ^2.0.11
+  fl_chart: ^0.66.0
+  http: ^0.13.3
+  animated_text_kit: ^4.2.2
+  cupertino_icons: ^1.0.2
+  msix: ^3.10.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  sqflite_common_ffi: ^2.0.0+1
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
